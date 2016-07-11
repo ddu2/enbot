@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-#coding:utf-8
+# coding:utf-8
 # date: 2016-03-29 
 # author: dudp@foxmail.com
 
@@ -54,7 +54,7 @@ def request(url,data=None):
     return response
 
 
-acc_pwd = { 'un': username, 'pw': password}
+acc_pwd = { 'un': username, 'pw': password }
 
 cookiejar = cookielib.LWPCookieJar()
 try:
